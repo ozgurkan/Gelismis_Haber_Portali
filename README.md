@@ -23,7 +23,7 @@ Proje öğretim görevlisi  Kadir Ucun  tarafından değerlendirilecektir.
 
 # Proje süresi ve zamanı:	3 Ay
 
-#Proje bütçesi-Gerekçesi:	-
+# Proje bütçesi-Gerekçesi:	-
 
 # Proje özeti: 
 Genel haber sitelerinden farklı olarak reklam alanı bulunmayacaktır. Sol ya da sağ tarafta haberlerin döndüğü bir adet slider bulunacaktır. Kategorileme sistemiyle her haberin bir kategorisi olacaktır. Yönetim kısmında kolayca kategori ekleme, haber ekleme gibi bölümler bulunacaktır. Yöneticinin haberi sitenin belirli yerlerine ekleyebilecektir. Her habere tıklanıldığında haberin içeriğine varsa resim, video gibi görsel öğeleri görüntülenecektir.
