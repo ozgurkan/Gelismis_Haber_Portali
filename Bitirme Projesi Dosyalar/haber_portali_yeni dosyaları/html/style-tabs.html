@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Cnc - News</title>
+  
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+    <link rel="stylesheet" href="stylesheets/cnc.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+	
+	<script src="javascripts/modernizr.foundation.js"></script>
+    <!-- Included JS Files -->
+	<script src="javascripts/jquery.min.js"></script>
+	<script src="javascripts/foundation.js"></script>
+	<script src="javascripts/app.js"></script>
+
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    
+    
+    
+    <!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="javascripts/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="javascripts/source/jquery.fancybox.js?v=2.0.6"></script>
+	<link rel="stylesheet" type="text/css" href="javascripts/source/jquery.fancybox.css?v=2.0.6" media="screen" />
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="javascripts/source/helpers/jquery.fancybox-thumbs.css?v=1.0.2" />
+	<script type="text/javascript" src="javascripts/source/helpers/jquery.fancybox-thumbs.js?v=1.0.2"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="javascripts/source/helpers/jquery.fancybox-media.js?v=1.0.0"></script>
+        
+</head>
+<body>
+
+<!-- container -->
+<div class="container">
+	
+    <div class="min-h-10"></div>
+	
+    <header>
+        <div class="header-bg"> 
+            <div class="row">
+                <div class="three columns">
+                    <img src="images/logo.png" title="Logo" class="mrgn-t-5 mrgn-l-5" />
+                </div>
+                
+                <div class="nine columns">
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="header-menu mrgn-t-5">
+                                
+                            </div>
+                        </div>
+                        <div class="four columns">
+                        	<div class="header-menu mrgn-t-5">
+                            	<input type="text" name="search" id="search" class="top-search" onClick="if(this.value == 'search') this.value='';" onBlur="if(this.value=='') this.value='search';" value="search" />
+                            </div>
+                        </div>
+                        <div class="four columns hide-on-phones">
+                            <div class="ta-right">
+								<ul class="social_bookmarks mrgn-t-5 mrgn-r-5">
+                                    <li class='dribbble'><a href='http://dribbble.com/tanriverdims'>Dribbble</a></li>
+                                    <li class='twitter'><a href='http://twitter.com/tanriverdims'>Twitter</a></li>
+                                    <li class='facebook'><a href='http://www.facebook.com/tanriverdimstf'>Facebook</a></li>
+                                    <li class='gplus'><a href='https://plus.google.com/u/0/118375363408483426766'>Google Plus</a></li>
+                                    <li class='linkedin'><a href='http://www.linkedin.com'>Linkedin</a></li>	
+                                    <li class="rss"><a href="#">RSS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row hide-on-phones">
+                        <div class="twelve columns">
+                       		<script src="javascripts/jquery.ticker.js" type="text/javascript"></script>
+							<script src="javascripts/site.js" type="text/javascript"></script>
+                            <ul id="js-news" class="js-hidden">
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis.</li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis.</li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis.</li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /.row -->
+            
+            <div class="min-h-10"></div>
+            
+            <div class="row">
+                <div class="twelve columns">
+                    <div class="menu_nav theme-background hide-on-phones">
+                        <ul id="menu">
+                            <li>
+                                <a class="active_menu" href="index.html">Home</a>
+                            </li>
+                            <li>
+                            	<a href="#">World</a>
+                            	<ul class="theme-background">
+                                	<li>
+                                    	<a href="#">Europe &raquo;</a>
+                                    	<ul class="theme-background">
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                    	<a href="#">Asia &raquo;</a>
+                                        <ul class="theme-background">
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Africa</a></li>
+                                    <li>
+                                    	<a href="#">Africa &raquo;</a>
+                                    	<ul class="theme-background">
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                        </ul>    
+                                    </li>
+                                    <li><a href="#">Australia</a></li>
+                                </ul>
+                             </li>
+                             <li>
+                            	<a href="#">Sports &raquo;</a>
+                            	<ul class="theme-background">
+                                	<li><a href="#">Basketball</a></li>
+                                    <li><a href="#">Football</a></li>
+                                    <li><a href="#">Swimming</a></li>
+                                    <li><a href="#">Tennis</a></li>
+                                    <li><a href="#">Golf</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Works</a>
+                            </li>
+                            <li>
+                                <a href="#">Finance</a>
+                            </li>
+                            <li>
+                                <a href="#">Sub Menu</a>
+                                <ul class="theme-background">
+                                    <li><a href="#">Sub Menu</a></li>
+                                    <li><a href="#">Sub Menu</a></li>
+                                    <li>
+                                    	<a href="#">Sub Menu &raquo;</a>
+                                        <ul class="theme-background">
+                                        <li><a href="#">Sub Menu</a></li>
+                                        <li><a href="#">Sub Menu</a></li>
+                                        <li>
+                                        	<a href="#">Sub Menu &raquo;</a>
+                                            <ul class="theme-background">
+                                                <li><a href="#">Sub Menu</a></li>
+                                                <li><a href="#">Sub Menu</a></li>
+                                                <li><a href="#">Sub Menu</a></li>
+                                                <li><a href="#">Sub Menu</a></li>
+                                                <li><a href="#">Sub Menu</a></li>
+                                            </ul> 
+                                        </li>
+                                        <li><a href="#">Sub Menu</a></li>
+                                        <li><a href="#">Sub Menu</a></li>
+                                    </ul> 
+                                    </li>
+                                    <li><a href="#">Sub Menu</a></li>
+                                    <li><a href="#">Sub Menu</a></li>
+                                </ul> 
+                            </li>
+                            <li>
+                                <a href="#">Page</a>
+                                <ul class="theme-background">
+                                	<li>
+                                    	<a href="#">Home Page Style &raquo;</a>
+                                        <ul class="theme-background">
+                                            <li><a href="index.html">Home Page Style 1</a></li>
+                                            <li><a href="index-2.html">Home Page Style 2</a></li>
+                                        </ul>   
+                                    </li>
+                                    <li><a href="category.html">Category</a></li>
+                                    <li>
+                                    	<a href="#">Sidebar &raquo;</a>
+                                        <ul class="theme-background">
+                                            <li><a href="single.html">Sidebar Left</a></li>
+                                            <li><a href="single-sidebar-right.html">Sidebar Right</a></li>
+                                        </ul>   
+                                    </li>
+                                    <li><a href="single.html">Page Single</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="page-full.html">Full Page</a></li>
+                                </ul>  
+                            </li>
+                            <li>
+                                <a href="#">Themes</a> 
+                                <ul class="theme-background">
+                                    <li><a href="page-full.html">Typography</a></li>
+                                    <li><a href="typography-layouts.html">Typography Layouts</a></li>
+                                    <li><a href="style-messagebox.html">Style Messagebox</a></li>
+                                    <li><a href="style-tabs.html">Style Tabs</a></li>
+                                    <li><a href="style-image.html">Style Image</a></li>
+                                </ul>   
+                            </li>
+                        </ul> <!-- /#menu -->
+                    </div> <!-- /.menu_nav -->
+                </div>
+            </div>
+        </div> <!-- /.header-bg -->
+    </header>
+    
+    
+    <div class="row">
+        <div class="twelve columns">
+            
+            <div class="min-h-20"></div>
+
+            <div class="row">
+                <div class="twelve columns ta-justify"> 
+                     
+                    
+                    <dl class="tabs">
+                      <dd><a href="#simple1" class="active">Simple Tab 1</a></dd>
+                      <dd><a href="#simple2">Simple Tab 2</a></dd>
+                      <dd><a href="#simple3">Simple Tab 3</a></dd>
+                    </dl>
+                    
+                    <ul class="tabs-content">
+                      <li class="active c-black" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
+                      <li class="c-black" id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
+                      <li class="c-black" id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+                    </ul>
+                     
+                     <p></p>
+                     
+                    <dl class="tabs contained">
+                      <dd><a href="#simpleContained1" class="active">Simple Tab 1</a></dd>
+                      <dd><a href="#simpleContained2">Simple Tab 2</a></dd>
+                      <dd><a href="#simpleContained3">Simple Tab 3</a></dd>
+                    </dl>
+                    
+                    <ul class="tabs-content contained">
+                      <li class="active c-black" id="simpleContained1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
+                      <li class="c-black" id="simpleContained2Tab">This is simple tab 2's content. Now you see it!</li>
+                      <li class="c-black" id="simpleContained3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+                    </ul>  
+                    
+                    <p></p>
+                    
+                    <dl class="nice contained tabs">
+                      <dd><a href="#nice1" class="active">Nice Tab 1</a></dd>
+                      <dd><a href="#nice2">Nice Tab 2</a></dd>
+                      <dd><a href="#nice3">Nice Tab 3</a></dd>
+                    </dl>
+                    
+                    <ul class="nice tabs-content contained">
+                      <li class="active c-black" id="nice1Tab">This is nice tab 1's content. Pretty neat, huh?</li>
+                      <li class="c-black" id="nice2Tab">This is nice tab 2's content. Now you see it!</li>
+                      <li class="c-black" id="nice3Tab">This is nice tab 3's content. It's, you know...okay.</li>
+                    </ul>  
+                    
+                </div>
+            </div>
+        </div>
+     </div>       
+        
+            
+    <div class="min-h-10"></div>
+        
+    <footer id="footer"> 
+        
+        <div class="row hide-on-phones">
+            <div class="four columns ta-justify theme-background">
+                <div class="footer-three theme-background c-white box-shadow-left-black-2 pddng-5">
+                    <a href="http://themeforest.net/?ref=mtanriverdi"><img src="images/banner_tf_125x125_v3.gif" alt="image" class="mrgn-l-10 box-shadow-left-black-1" /></a>
+                    <a href="http://codecanyon.net/?ref=mtanriverdi"><img src="images/banner_cc_125x125_v2.gif" alt="image" class="box-shadow-left-black-1 mrgn-l-10" /></a> 
+                </div>
+            </div>
+            <div class="four columns ta-justify theme-background">
+                <div class="footer-three theme-background c-white box-shadow-left-black-2 pddng-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis. Quisque tempus sagittis turpis id auctor.
+                    <br />
+                    Nunc tempus augue quis nisl suscipit faucibus. Quisque faucibus, mi nec accumsan dapibus, ipsum massa lacinia eros, vel varius nulla ante.
+                </div>
+            </div>
+            <div class="four columns ta-justify">
+                <div class="footer-three theme-background c-white box-shadow-left-black-2 pddng-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis. Quisque tempus sagittis turpis id auctor.
+                    <br />
+                    Nunc tempus augue quis nisl suscipit faucibus. Quisque faucibus, mi nec accumsan dapibus, ipsum massa lacinia eros, vel varius nulla ante.
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="min-h-20"></div>
+        
+    <div class="row footer theme-background">
+        <div class="six columns">
+            <div class="mrgn-l-5 mrgn-t-8">
+                © Copyright 2012 Mustafa Tanriverdi
+            </div>
+        </div>
+        <div class="six columns">
+            <div class="mrgn-r-5 mrgn-t-8 ta-right">
+                <a href="index.html" class="link">Home</a> / 
+                <a href="index.html" class="link">Portfolio</a> / 
+                <a href="index.html" class="link">Site Map</a> / 
+                <a href="index.html" class="link">Contact</a>
+            </div>
+            <div class="min-h-10"></div>
+        </div>
+    </div> <!-- /.row footer theme-background -->
+	<div class="min-h-10"></div> 
+</div> <!-- container -->
+</body>
+</html>

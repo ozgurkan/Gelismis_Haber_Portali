@@ -1,0 +1,368 @@
+/* Foundation v2.2.1 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Default
+----------------------------------------- */
+
+.border	{ border:1px solid #000;	}
+
+.ta-right	{ 	text-align:right;	}
+.ta-justify	{	text-align:justify;padding-top:20px	}
+
+
+
+/*	--------------------------------------------------
+	:: margin
+	-------------------------------------------------- */
+	
+	.mrgn-t-1	{	margin-top:1px;		}
+	.mrgn-t-2	{	margin-top:2px;		}
+	.mrgn-t-3	{	margin-top:3px;		}
+	.mrgn-t-4	{	margin-top:4px;		}
+	.mrgn-t-5	{	margin-top:5px;		}
+	.mrgn-t-6	{	margin-top:6px;		}
+	.mrgn-t-7	{	margin-top:7px;		}
+	.mrgn-t-8	{	margin-top:8px;		}
+	.mrgn-t-9	{	margin-top:9px;		}
+	
+	
+	.mrgn-l-1	{	margin-left:1px;	}
+	.mrgn-l-2	{	margin-left:2px;	}
+	.mrgn-l-3	{	margin-left:3px;	}
+	.mrgn-l-4	{	margin-left:4px;	}
+	.mrgn-l-5	{	margin-left:5px;	}
+	.mrgn-l-6	{	margin-left:6px;	}
+	.mrgn-l-7	{	margin-left:7px;	}
+	.mrgn-l-8	{	margin-left:8px;	}
+	.mrgn-l-9	{	margin-left:9px;	}
+	.mrgn-l-10	{	margin-left:10px;	}
+	.mrgn-l-11	{	margin-left:11px;	}
+	.mrgn-l-12	{	margin-left:12px;	}
+	.mrgn-l-13	{	margin-left:13px;	}
+	.mrgn-l-14	{	margin-left:14px;	}
+	.mrgn-l-15	{	margin-left:15px;	}
+	.mrgn-l-16	{	margin-left:16px;	}
+	.mrgn-l-17	{	margin-left:17px;	}
+	.mrgn-l-18	{	margin-left:18px;	}
+	.mrgn-l-19	{	margin-left:19px;	}
+	.mrgn-l-20	{	margin-left:20px;	}
+	
+	.mrgn-r-1	{	margin-right:1px;	}
+	.mrgn-r-2	{	margin-right:2px;	}
+	.mrgn-r-3	{	margin-right:3px;	}
+	.mrgn-r-4	{	margin-right:4px;	}
+	.mrgn-r-5	{	margin-right:5px;	}
+	.mrgn-r-6	{	margin-right:6px;	}
+	.mrgn-r-7	{	margin-right:7px;	}
+	.mrgn-r-8	{	margin-right:8px;	}
+	.mrgn-r-9	{	margin-right:9px;	}
+
+
+
+/*	--------------------------------------------------
+	:: margin
+	-------------------------------------------------- */
+	.pddng-1		{	padding:1px;	}
+	.pddng-2		{	padding:2px;	}
+	.pddng-3		{	padding:3px;	}
+	.pddng-4		{	padding:4px;	}
+	.pddng-5		{	padding:5px;	}
+	.pddng-6		{	padding:6px;	}
+	.pddng-7		{	padding:7px;	}
+	.pddng-8		{	padding:8px;	}
+	.pddng-9 	{	padding:9px;	}
+
+
+/*	--------------------------------------------------
+	:: height
+	-------------------------------------------------- */
+	
+	.min-h-10	{	min-height:10px;	}
+	.min-h-20	{	min-height:20px;	}
+	.min-h-30	{	min-height:30px;	}
+	.min-h-40	{	min-height:40px;	}
+	.min-h-50	{	min-height:50px;	}
+	.min-h-60	{	min-height:60px;	}
+	.min-h-70	{	min-height:70px;	}
+	.min-h-80	{	min-height:80px;	}
+	.min-h-90	{	min-height:90px;	}
+	
+	
+	
+	
+/*	--------------------------------------------------
+	:: font-color
+	-------------------------------------------------- */
+
+	.c-white	{	color:#FFF;	} a.c-white	{	color:#fff;	}
+	.c-black	{	color:#000;	} a.c-black	{	color:#000;	}
+	
+	
+	.text-text-shadow-1	{ text-shadow: 0 1px 1px #111111;	}
+	
+	
+	.fs-16	{	font-size:16px;	}
+	.fs-18	{	font-size:18px;	}
+	
+	.f-left	{ float:left;	}
+
+	
+	hr.none	{	border:0px;	}
+	
+	a:hover.td-underline { text-decoration:underline;	}
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+	.text-shadow-white-1	{
+        text-shadow: 1px 1px 1px #fafafa;
+        filter: dropshadow(color=#fafafa, offx=1, offy=1);
+	}
+	.text-shadow-white-2	{
+        text-shadow: 2px 2px 2px #fafafa;
+        filter: dropshadow(color=#fafafa, offx=2, offy=2);
+	}
+	.text-shadow-white-3	{
+        text-shadow: 3px 3px 3px #fafafa;
+        filter: dropshadow(color=#fafafa, offx=3, offy=3);
+	}
+	
+	
+	.text-shadow-black-1	{
+        text-shadow: 1px 1px 1px #000;
+        filter: dropshadow(color=#000, offx=1, offy=1);
+	}
+	.text-shadow-black-2	{
+        text-shadow: 2px 2px 2px #000;
+        filter: dropshadow(color=#000, offx=2, offy=2);
+	}
+	.text-shadow-black-3	{
+        text-shadow: 3px 3px 3px #000;
+        filter: dropshadow(color=#000, offx=3, offy=3);
+	}
+	
+	
+	.text-shadow-gray-1	{
+        text-shadow: 1px 1px 1px #999;
+        filter: dropshadow(color=#999, offx=1, offy=1);
+	}
+	.text-shadow-gray-2	{
+        text-shadow: 2px 2px 2px #999;
+        filter: dropshadow(color=#999, offx=2, offy=2);
+	}
+	.text-shadow-gray-3	{
+        text-shadow: 3px 3px 3px #999;
+        filter: dropshadow(color=#999, offx=3, offy=3);
+	}
+	
+	
+	
+	
+	.box-shadow-right-black-1	{
+		-webkit-box-shadow: 1px 1px 1px #000000;
+		   -moz-box-shadow: 1px 1px 1px #000000;
+				box-shadow: 1px 1px 1px #000000;
+	}
+	.box-shadow-right-black-2	{
+		-webkit-box-shadow: 2px 2px 2px #000000;
+		   -moz-box-shadow: 2px 2px 2px #000000;
+				box-shadow: 2px 2px 2px #000000;
+	}
+	.box-shadow-right-black-3	{
+		-webkit-box-shadow: 3px 3px 3px #000000;
+		   -moz-box-shadow: 3px 3px 4px #000000;
+				box-shadow: 3px 3px 3px #000000;
+	}
+	
+	.box-shadow-left-black-1	{
+		-webkit-box-shadow: -1px 1px 1px #000000;
+		   -moz-box-shadow: -1px 1px 1px #000000;
+				box-shadow: -1px 1px 1px #000000;
+	}
+	.box-shadow-left-black-2	{
+		-webkit-box-shadow: -2px 2px 2px #000000;
+		   -moz-box-shadow: -2px 2px 2px #000000;
+				box-shadow: -2px 2px 2px #000000;
+	}
+	.box-shadow-left-black-3	{
+		-webkit-box-shadow: -3px 3px 3px #000000;
+		   -moz-box-shadow: -3px 3px 4px #000000;
+				box-shadow: -3px 3px 3px #000000;
+	}
+	
+	
+	.box-shadow-bottom-black-1	{
+		-webkit-box-shadow: 0 8px 6px -6px black;
+		   -moz-box-shadow: 0 8px 6px -6px black;
+				box-shadow: 0 8px 6px -6px black;
+	}
+
+	
+	
+	
+	.radius-1	{
+		-webkit-border-radius: 1px;
+		   -moz-border-radius: 1px;
+				border-radius: 1px;
+	}
+	.radius-2	{
+		-webkit-border-radius: 2px;
+		   -moz-border-radius: 2px;
+				border-radius: 2px;
+	}
+	.radius-3	{
+		-webkit-border-radius: 3px;
+		   -moz-border-radius: 3px;
+				border-radius: 3px;
+	}
+	.radius-4	{
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+				border-radius: 4px;
+	}
+	.radius-5	{
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+				border-radius: 5px;
+	}
+	.radius-6	{
+		-webkit-border-radius: 6px;
+		   -moz-border-radius: 6px;
+				border-radius: 6px;
+	}
+	.radius-7	{
+		-webkit-border-radius: 7px;
+		   -moz-border-radius: 7px;
+				border-radius: 7px;
+	}
+	.radius-8	{
+		-webkit-border-radius: 8px;
+		   -moz-border-radius: 8px;
+				border-radius: 8px;
+	}
+	.radius-9	{
+		-webkit-border-radius: 9px;
+		   -moz-border-radius: 9px;
+				border-radius: 9px;
+	}
+	
+	
+	.radius-25	{
+		-webkit-border-radius: 25px;
+		   -moz-border-radius: 25px;
+				border-radius: 25px;
+	}
+	.radius-50	{
+		-webkit-border-radius: 50px;
+		   -moz-border-radius: 50px;
+				border-radius: 50px;
+	}
+	.radius-75	{
+		-webkit-border-radius: 75px;
+		   -moz-border-radius: 75px;
+				border-radius: 75px;
+	}
+
+/* --------------------------------------------------
+   MESSAGEBOX
+-----------------------------------------------------
+:: Style 1			Mustafa Tanrıverdi @http://mtanriverdi.blogspot.com
+:: Style 2			Mustafa Tanrıverdi @http://mtanriverdi.blogspot.com
+:: Style 3			Mustafa Tanrıverdi @http://mtanriverdi.blogspot.com
+*/
+	
+	
+	/*	--------------------------------------------------
+   	Style 1
+   	Mustafa Tanrıverdi - http://mtanriverdi.blogspot.com
+	-------------------------------------------------- */ 
+	.mbox.info-1, .mbox.success-1, .mbox.warning-1, .mbox.error-1 {
+	  text-align: left;
+	  padding: 5px 8px;
+	  color:#333;
+	  margin: 0px 0px 20px;
+	}
+	.mbox.info-1  {
+	  background-color: #f7fafd;
+	  border-top: 2px solid #b5d3ff;
+	  border-bottom: 2px solid #b5d3ff;
+	}
+	.mbox.success-1 {
+	  background-color: #d7f7c4;
+	  border-top: 2px solid #82cb2f;
+	  border-bottom: 2px solid #82cb2f;
+	}
+	.mbox.warning-1 {
+	  background-color: #fef5be;
+	  border-top: 2px solid #fdd425;
+	  border-bottom: 2px solid #fdd425;
+	}
+	.mbox.error-1 {
+	  background-color: #ffcdd1;
+	  border-top: 2px solid #e10c0c;
+	  border-bottom: 2px solid #e10c0c;
+	}
+	
+	
+	/*	--------------------------------------------------
+   	Style 2
+   	Mustafa Tanrıverdi - http://mtanriverdi.blogspot.com
+	-------------------------------------------------- */
+	.mbox.error-2, .mbox.warning-2, .mbox.success-2, .mbox.info-2 {
+		margin-bottom: 1.5em;
+		padding: 1em 1.5em 1em 5.5em;
+		border-bottom: 2px solid #fff;
+		border-top: 2px solid #fff;
+		color: #444
+	}
+	
+	.mbox.error-2    	{ background: #fbe3e4 url(cnc-img/mbox-style2/error-1.png) 2.2em center no-repeat; border-color: #e0011b;  	}
+	.mbox.error-2 a  	{ color: #d12f19;	}
+	
+	.mbox.warning-2    	{ background: #fff6bf url(cnc-img/mbox-style2/warning-1.png) 2.2em center no-repeat; border-color: #ffd324;	}
+	.mbox.warning-2 a  	{ color: #817134;	}
+	
+	.mbox.success-2   	{ background: #e9ffdd url(cnc-img/mbox-style2/success-1.png) 2.2em center no-repeat; border-color: #72c868;	}
+	.mbox.success-1 a 	{ color: #529214;	}
+	
+	.mbox.info-2   		{ background: #e2ecee url(cnc-img/mbox-style2/info-1.png) 2.2em center no-repeat; border-color: #9ddae6;	}
+	.mbox.info-2 a 		{ color: #2d7ba2;	}
+	
+	.mbox.error-2 ul, .mbox.warning-2 ul, .mbox.success-2 ul, .mbox.info-2 ul {
+		list-style: none;
+		margin: 1.3em 1.5em
+	}
+	.mbox.error-2 ul li, .mbox.warning-2 ul li, .mbox.success-2 ul li, .mbox.info-2 ul li { padding-left: 1.3em }
+	.mbox.error-2 ul li  	{ background: url(cnc-img/mbox-style2/error-1-bullet.png)  0 0.55em no-repeat 	}
+	.mbox.warning-2 ul li  	{ background: url(cnc-img/mbox-style2/warning-1-bullet.png)  0 0.55em no-repeat }
+	.mbox.success-2 ul li 	{ background: url(cnc-img/mbox-style2/success-1-bullet.png) 0 0.55em no-repeat 	}
+	.mbox.info-2 ul li 		{ background: url(cnc-img/mbox-style2/info-1-bullet.png) 0 0.55em no-repeat 	}
+	
+	
+	
+	/*	--------------------------------------------------
+   	Style 3
+   	Mustafa Tanrıverdi - http://mtanriverdi.blogspot.com
+	-------------------------------------------------- */
+	.mbox.info-3, .mbox.success-3, .mbox.warning-3, .mbox.error-3 {
+		border: 1px solid;
+
+		padding:5px 5px 5px 5px;
+	}
+	.mbox.info-3 	{ background-color:#e2ecee;	color: #00529B;	}
+	.mbox.success-3 { background-color:#e9ffdd;	color: #4F8A10;	}
+	.mbox.warning-3 { background-color:#fff6bf;	color: #9F6000;	}
+	.mbox.error-3 	{ background-color:#fbe3e4;	color: #D8000C; }
+
+

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Cnc - News</title>
+  
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+    <link rel="stylesheet" href="stylesheets/cnc.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+	
+	<script src="javascripts/modernizr.foundation.js"></script>
+    <!-- Included JS Files -->
+	<script src="javascripts/jquery.min.js"></script>
+	<script src="javascripts/foundation.js"></script>
+	<script src="javascripts/app.js"></script>
+
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    
+    
+    
+    <!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="javascripts/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="javascripts/source/jquery.fancybox.js?v=2.0.6"></script>
+	<link rel="stylesheet" type="text/css" href="javascripts/source/jquery.fancybox.css?v=2.0.6" media="screen" />
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="javascripts/source/helpers/jquery.fancybox-thumbs.css?v=1.0.2" />
+	<script type="text/javascript" src="javascripts/source/helpers/jquery.fancybox-thumbs.js?v=1.0.2"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="javascripts/source/helpers/jquery.fancybox-media.js?v=1.0.0"></script>
+        
+</head>
+<body>
+
+<!-- container -->
+<div class="container">
+	
+    <div class="min-h-10"></div>
+	
+    <header>
+        <div class="header-bg"> 
+            <div class="row">
+                <div class="three columns">
+                    <img src="images/logo.png" title="Logo" class="mrgn-t-5 mrgn-l-5" />
+                </div>
+                
+                <div class="nine columns">
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="header-menu mrgn-t-5">
+                                
+                            </div>
+                        </div>
+                        <div class="four columns">
+                        	<div class="header-menu mrgn-t-5">
+                            	<input type="text" name="search" id="search" class="top-search" onClick="if(this.value == 'search') this.value='';" onBlur="if(this.value=='') this.value='search';" value="search" />
+                            </div>
+                        </div>
+                        <div class="four columns hide-on-phones">
+                            <div class="ta-right">
+								<ul class="social_bookmarks mrgn-t-5 mrgn-r-5">
+                                    <li class='dribbble'><a href='http://dribbble.com/tanriverdims'>Dribbble</a></li>
+                                    <li class='twitter'><a href='http://twitter.com/tanriverdims'>Twitter</a></li>
+                                    <li class='facebook'><a href='http://www.facebook.com/tanriverdimstf'>Facebook</a></li>
+                                    <li class='gplus'><a href='https://plus.google.com/u/0/118375363408483426766'>Google Plus</a></li>
+                                    <li class='linkedin'><a href='http://www.linkedin.com'>Linkedin</a></li>	
+                                    <li class="rss"><a href="#">RSS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row hide-on-phones">
+                        <div class="twelve columns">
+                       		<script src="javascripts/jquery.ticker.js" type="text/javascript"></script>
+							<script src="javascripts/site.js" type="text/javascript"></script>
+                            <ul id="js-news" class="js-hidden">
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis.</li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis.</li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis.</li>
+                                <li class="news-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /.row -->
+            
+            <div class="min-h-10"></div>
+            
+            <div class="row">
+                <div class="twelve columns">
+                    <div class="menu_nav theme-background hide-on-phones">
+                        <ul id="menu">
+                            <li>
+                                <a class="active_menu" href="index.html">Home</a>
+                            </li>
+                            <li>
+                            	<a href="#">World</a>
+                            	<ul class="theme-background">
+                                	<li>
+                                    	<a href="#">Europe &raquo;</a>
+                                    	<ul class="theme-background">
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                    	<a href="#">Asia &raquo;</a>
+                                        <ul class="theme-background">
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Africa</a></li>
+                                    <li>
+                                    	<a href="#">Africa &raquo;</a>
+                                    	<ul class="theme-background">
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                        </ul>    
+                                    </li>
+                                    <li><a href="#">Australia</a></li>
+                                </ul>
+                             </li>
+                             <li>
+                            	<a href="#">Sports &raquo;</a>
+                            	<ul class="theme-background">
+                                	<li><a href="#">Basketball</a></li>
+                                    <li><a href="#">Football</a></li>
+                                    <li><a href="#">Swimming</a></li>
+                                    <li><a href="#">Tennis</a></li>
+                                    <li><a href="#">Golf</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Works</a>
+                            </li>
+                            <li>
+                                <a href="#">Finance</a>
+                            </li>
+                            <li>
+                                <a href="#">Sub Menu</a>
+                                <ul class="theme-background">
+                                    <li><a href="#">Sub Menu</a></li>
+                                    <li><a href="#">Sub Menu</a></li>
+                                    <li>
+                                    	<a href="#">Sub Menu &raquo;</a>
+                                        <ul class="theme-background">
+                                        <li><a href="#">Sub Menu</a></li>
+                                        <li><a href="#">Sub Menu</a></li>
+                                        <li>
+                                        	<a href="#">Sub Menu &raquo;</a>
+                                            <ul class="theme-background">
+                                                <li><a href="#">Sub Menu</a></li>
+                                                <li><a href="#">Sub Menu</a></li>
+                                                <li><a href="#">Sub Menu</a></li>
+                                                <li><a href="#">Sub Menu</a></li>
+                                                <li><a href="#">Sub Menu</a></li>
+                                            </ul> 
+                                        </li>
+                                        <li><a href="#">Sub Menu</a></li>
+                                        <li><a href="#">Sub Menu</a></li>
+                                    </ul> 
+                                    </li>
+                                    <li><a href="#">Sub Menu</a></li>
+                                    <li><a href="#">Sub Menu</a></li>
+                                </ul> 
+                            </li>
+                            <li>
+                                <a href="#">Page</a>
+                                <ul class="theme-background">
+                                	<li>
+                                    	<a href="#">Home Page Style &raquo;</a>
+                                        <ul class="theme-background">
+                                            <li><a href="index.html">Home Page Style 1</a></li>
+                                            <li><a href="index-2.html">Home Page Style 2</a></li>
+                                        </ul>   
+                                    </li>
+                                    <li><a href="category.html">Category</a></li>
+                                    <li>
+                                    	<a href="#">Sidebar &raquo;</a>
+                                        <ul class="theme-background">
+                                            <li><a href="single.html">Sidebar Left</a></li>
+                                            <li><a href="single-sidebar-right.html">Sidebar Right</a></li>
+                                        </ul>   
+                                    </li>
+                                    <li><a href="single.html">Page Single</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="page-full.html">Full Page</a></li>
+                                </ul>  
+                            </li>
+                            <li>
+                                <a href="#">Themes</a> 
+                                <ul class="theme-background">
+                                    <li><a href="page-full.html">Typography</a></li>
+                                    <li><a href="typography-layouts.html">Typography Layouts</a></li>
+                                    <li><a href="style-messagebox.html">Style Messagebox</a></li>
+                                    <li><a href="style-tabs.html">Style Tabs</a></li>
+                                    <li><a href="style-image.html">Style Image</a></li>
+                                </ul>   
+                            </li>
+                        </ul> <!-- /#menu -->
+                    </div> <!-- /.menu_nav -->
+                </div>
+            </div>
+        </div> <!-- /.header-bg -->
+    </header>
+    
+    
+	<div class="min-h-20"></div>
+            
+        <div class="row">
+            <div class="twelve columns">
+                <div class="row">
+                    <div class="three columns">
+                        <div class="homepage-content-left">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class='picture'><a class="fancybox" href="images/image1.jpg" title="Lorem ipsum dolor sit amet">Picture</a></li>
+                                <li class='video'><a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI">Video</a></li>
+                                <li class="text color1">SPORTS</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-1.png" alt="image" /></a>
+                        </div>
+                        
+                        <div class="homepage-content-left">
+                            <h4><a href="#" class="link">Lorem lore lor eloe</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class='picture'><a class="fancybox" href="images/image1.jpg" title="Lorem ipsum dolor sit amet">Picture</a></li>
+                                <li class='video'><a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI">Video</a></li>
+                                <li class="text color5">MAGAZINE</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-2.png" alt="image" /></a>
+                        </div>
+                        
+                        <div class="homepage-content-left">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class='video'><a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI">Video</a></li>
+                                <li class="text color8">WORD</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-3.png" alt="image" /></a>
+                        </div>
+                        
+                        <div class="homepage-content-left">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class="text color8">WORD</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-4.png" alt="image" /></a>
+                        </div>
+                    </div> <!-- /.three columns -->
+                    <div class="three columns">
+                        <div class="homepage-content-right">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class='picture'><a class="fancybox" href="images/image1.jpg" title="Lorem ipsum dolor sit amet">Picture</a></li>
+                                <li class='video'><a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI">Video</a></li>
+                                <li class="text color6">ENTERTAINMENT</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-right-1.png" alt="image" /></a>
+                        </div>
+                        
+                        <div class="homepage-content-right">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class="text color5">MAGAZINE</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-right-2.png" alt="image" /></a>
+                        </div>
+                        
+                        <div class="homepage-content-right">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class='video'><a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI">Video</a></li>
+                                <li class="text color2">TECHNOLOGY</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-right-3.png" alt="image" /></a>
+                        </div>
+                        
+                        <div class="homepage-content-right">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class='picture'><a class="fancybox" href="images/image1.jpg" title="Lorem ipsum dolor sit amet">Picture</a></li>
+                                <li class='video'><a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI">Video</a></li>
+                                <li class="text color6">MEDIA</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-right-4.png" alt="image" /></a>
+                        </div>
+                        
+                        <div class="homepage-content-right">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class='picture'><a class="fancybox" href="images/image1.jpg" title="Lorem ipsum dolor sit amet">Picture</a></li>
+                                <li class='video'><a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI">Video</a></li>
+                                <li class="text color4">FINANCE</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-right-5.png" alt="image" /></a>
+                        </div>
+                        
+                        <div class="homepage-content-right">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet</a></h4>
+                            <ul class="image_bookmarks content-image">
+                                <li class='picture'><a class="fancybox" href="images/image1.jpg" title="Lorem ipsum dolor sit amet">Picture</a></li>
+                                <li class='video'><a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI">Video</a></li>
+                                <li class="text color6">TRAVEL</li>
+                            </ul>
+                            <a href="#" class="link"><img src="images/homepage/content-right-6.png" alt="image" /></a>
+                        </div>
+                    </div> <!-- /.three columns -->
+                    <div class="six columns hide-on-phones">
+                        <div class="featured-news ta-justify">
+                            <h4><a href="#" class="link">Lorem ipsum dolor sit amet, consectetur</a></h4>
+                            <img src="images/homepage/content-2.png" alt="image" class="f-left box-shadow-left-black-2" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis. Quisque tempus sagittis turpis id auctor. Nunc tempus augue quis nisl suscipit faucibus. Quisque faucibus, mi nec accumsan dapibus, ipsum massa lacinia eros, vel varius nulla ante quis dolor. In ullamcorper malesuada convallis. Nam accumsan lacus a arcu congue nec convallis diam fermentum. Morbi erat nunc, semper at iaculis sit amet, commodo dapibus lorem. Cras in velit id lacus pretium pharetra. Donec mauris nulla, ultrices adipiscing pharetra non, vehicula id velit. Maecenas auctor diam sed leo lobortis tempor. Phasellus non justo mi.
+                        </div>
+                        
+                        <div class="min-h-10"></div>
+                        
+                        <div class="modul gallery title"><h4>&nbsp;</h4></div>
+                        <div class="modul gallery">
+                            <ul class="columns gallery">
+                                <li>
+                                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/image1.jpg"><img src="images/homepage/gallery-1.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                            
+                                </li>
+                                <li>
+                                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/image2.jpg"><img src="images/homepage/gallery-2.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/image3.jpg"><img src="images/homepage/gallery-3.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                            
+                                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/image4.jpg"><img src="images/homepage/gallery-4.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="images/image5.jpg"><img src="images/homepage/gallery-5.png" alt="image" /></a>
+                            
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="fancybox-thumbs" data-fancybox-group="thumb2" href="images/image1.jpg"><img src="images/homepage/gallery-6.png" alt="image" /></a>
+                                    <div class="info">
+                            
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb2" href="images/image2.jpg"><img src="images/homepage/gallery-7.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb2" href="images/image3.jpg"><img src="images/homepage/gallery-8.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb2" href="images/image4.jpg"><img src="images/homepage/gallery-9.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb2" href="images/image5.jpg"><img src="images/homepage/gallery-10.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                            
+                                </li>
+                                <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb3" href="images/image1.jpg"><img src="images/homepage/gallery-11.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb3" href="images/image2.jpg"><img src="images/homepage/gallery-12.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                  <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb3" href="images/image3.jpg"><img src="images/homepage/gallery-1.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                            
+                                </li>
+                                <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb3" href="images/image4.jpg"><img src="images/homepage/gallery-2.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                     <a class="fancybox-thumbs" data-fancybox-group="thumb3" href="images/image5.jpg"><img src="images/homepage/gallery-3.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                            </ul> <!-- /.columns gallery -->
+                        </div> <!-- /.modul gallery -->
+                        
+                        <div class="clearfix"></div>
+
+                        <div class="modul video title"><h4>&nbsp;</h4></div>
+                        <div class="modul gallery">
+                            <ul class="columns video">
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-1.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                            
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-2.png" alt="" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="http://www.designbombs.com/clean-websites/dconstruct-2010/"><img src="images/homepage/gallery-3.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                            
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-4.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-5.png" alt="" /></a>
+                            
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-6.png" alt="image" /></a>
+                                    <div class="info">
+                            
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-7.png" alt="" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-8.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-9.png" alt="" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-10.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                            
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-11.png" alt="" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-12.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                                  <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-1.png" alt="" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                            
+                                </li>
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-2.png" alt="image" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a class="fancybox-media" href="http://www.youtube.com/watch?v=GgR6dyzkKHI"><img src="images/homepage/gallery-3.png" alt="" /></a>
+                                    <div class="info">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat.</p>
+                                    </div>
+                                </li>
+                            </ul> <!-- /.columns video -->
+                        </div> <!-- /.modul gallery -->
+                    </div> <!-- /six columns -->
+                </div> <!-- /.row -->
+            </div>  <!-- /.three columns -->
+		</div> <!-- /.row -->
+               
+        <div class="min-h-10"></div>
+        
+        <footer id="footer"> 
+        	<div class="row">
+                <div class="twelve columns ta-center hide-on-phones">
+                   <ul id="sti-menu" class="sti-menu mrgn-l-5">
+                        <li data-hovercolor="#37c5e9">
+                            <a href="#">
+                                <h2 data-type="mText" class="sti-item">Advanced Patient Care</h2>
+                                <h3 data-type="sText" class="sti-item">Personalized to your needs</h3>
+                                <span data-type="icon" class="sti-icon sti-icon-care sti-item"></span>
+                            </a>
+                        </li>
+                        <li data-hovercolor="#ff395e">
+                            <a href="#">
+                                <h2 data-type="mText" class="sti-item">Alternative Medicine</h2>
+                                <h3 data-type="sText" class="sti-item">Holistic approaches</h3>
+                                <span data-type="icon" class="sti-icon sti-icon-alternative sti-item"></span>
+                            </a>
+                        </li>
+                        <li data-hovercolor="#57e676">
+                            <a href="#">
+                                <h2 data-type="mText" class="sti-item">Modern Info Center</h2>
+                                <h3 data-type="sText" class="sti-item">Educating you</h3>
+                                <span data-type="icon" class="sti-icon sti-icon-info sti-item"></span>
+                            </a>
+                        </li>
+                        <li data-hovercolor="#d869b2">
+                            <a href="#">
+                                <h2 data-type="mText" class="sti-item">Future Family Planning</h2>
+                                <h3 data-type="sText" class="sti-item">For a healthier future</h3>
+                                <span data-type="icon" class="sti-icon sti-icon-family sti-item"></span>
+                            </a>
+                        </li>
+                        <li data-hovercolor="#ffdd3f">
+                            <a href="#">
+                                <h2 data-type="mText" class="sti-item">Advanced Technology</h2>
+                                <h3 data-type="sText" class="sti-item">From the latest research</h3>
+                                <span data-type="icon" class="sti-icon sti-icon-technology sti-item"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    
+                    <script type="text/javascript" src="javascripts/jquery.easing.1.3.js"></script>
+                    <script type="text/javascript" src="javascripts/jquery.iconmenu.js"></script>
+                    <script type="text/javascript">
+                        $(function() {
+                            $('#sti-menu').iconmenu({
+                                animMouseenter	: {
+                                    'mText' : {speed : 400, easing : 'easeOutExpo', delay : 140, dir : 1},
+                                    'sText' : {speed : 400, easing : 'easeOutExpo', delay : 0, dir : 1},
+                                    'icon'  : {speed : 800, easing : 'easeOutBounce', delay : 280, dir : 1}
+                                },
+                                animMouseleave	: {
+                                    'mText' : {speed : 400, easing : 'easeInExpo', delay : 140, dir : 1},
+                                    'sText' : {speed : 400, easing : 'easeInExpo', delay : 280, dir : 1},
+                                    'icon'  : {speed : 400, easing : 'easeInExpo', delay : 0, dir : 1}
+                                }
+                            });
+                        });
+                    </script>
+                </div> <!-- /.twelve columns ta-center -->
+            </div> <!-- /.row -->
+            
+            <div class="min-h-20"></div>
+            
+            <div class="row hide-on-phones">
+            	<div class="four columns ta-justify theme-background">
+                	<div class="footer-three theme-background c-white box-shadow-left-black-2 pddng-5">
+                        <a href="http://themeforest.net/?ref=mtanriverdi"><img src="images/banner_tf_125x125_v3.gif" alt="image" class="mrgn-l-10 box-shadow-left-black-1" /></a>
+                        <a href="http://codecanyon.net/?ref=mtanriverdi"><img src="images/banner_cc_125x125_v2.gif" alt="image" class="box-shadow-left-black-1 mrgn-l-10" /></a> 
+                	</div>
+                </div>
+                <div class="four columns ta-justify theme-background">
+                	<div class="footer-three theme-background c-white box-shadow-left-black-2 pddng-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis. Quisque tempus sagittis turpis id auctor.
+                        <br />
+                        Nunc tempus augue quis nisl suscipit faucibus. Quisque faucibus, mi nec accumsan dapibus, ipsum massa lacinia eros, vel varius nulla ante.
+                    </div>
+                </div>
+                <div class="four columns ta-justify">
+                	<div class="footer-three theme-background c-white box-shadow-left-black-2 pddng-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis massa in erat lacinia ornare. Pellentesque quis massa at ante viverra mollis. Quisque tempus sagittis turpis id auctor.
+                        <br />
+                        Nunc tempus augue quis nisl suscipit faucibus. Quisque faucibus, mi nec accumsan dapibus, ipsum massa lacinia eros, vel varius nulla ante.
+                	</div>
+                </div>
+            </div>
+		</footer>
+        
+        <div class="min-h-20"></div>
+            
+        <div class="row footer theme-background">
+            <div class="six columns">
+                <div class="mrgn-l-5 mrgn-t-8">
+                    © Copyright 2012 Mustafa Tanriverdi
+                </div>
+            </div>
+            <div class="six columns">
+                <div class="mrgn-r-5 mrgn-t-8 ta-right">
+                    <a href="index.html" class="link">Home</a> / 
+                    <a href="index.html" class="link">News</a> / 
+                    <a href="index.html" class="link">Site Map</a> / 
+                    <a href="index.html" class="link">Contact</a>
+                </div>
+                <div class="min-h-10"></div>
+            </div>
+        </div> <!-- /.row footer theme-background -->
+	<div class="min-h-10"></div> 
+</div> <!-- container -->
+</body>
+</html>
